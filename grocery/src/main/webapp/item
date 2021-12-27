@@ -1,0 +1,57 @@
+.item-image-size{
+height:200px;
+width:300px;
+padding:5px;
+}
+.title{
+padding:50px;
+font-size:50px;
+font-weight:bold;
+letter-spacing:10px;
+color:white;
+background:rgba(0,0,0,0.5);
+}
+.item-select{
+margin:10px 0 0 0;
+}
+.images{
+     display:inline-block;
+}
+.description{
+margin:20px;
+min-height:100px;
+}
+<div class="deals-container" id="vegetables">
+    <div class="parallax">
+        <div class="title">VEGETABLES</div>
+    </div>
+     <div class="quantity">
+                    <button1 class="btn minus-btn disabled" type="button">-</button1>
+                    <input type="text" id="quantity" value="1">
+                    <button1 class="btn plus-btn" type="button">+</button1>
+                </div>
+                <script>
+                    document.querySelector(".minus-btn").setAttribute("disabled", "disabled");
+                    var valueCount
+                    document.querySelector(".plus-btn").addEventListener("click", function(){
+                    valueCount = document.getElementById("quantity").value;
+                    valueCount++;
+                    document.getElementById("quantity").value = valueCount
+                    if(valueCount > 1)
+                    {
+                    document.querySelector(".minus-btn").removeAttribute("disabled");
+                    document.querySelector(".minus-btn").classList.remove("disabled");
+                    }
+                    })
+
+                    document.querySelector(".plus-btn").addEventListener("click", function(){
+                    valueCount = document.getElementById("quantity").value;
+                    valueCount--;
+                    document.getElementById("quantity").value = valueCount
+                    if(valueCount == 1)
+                    {
+                    document.querySelector(".minus-btn").setAttribute("disabled", "disabled");
+                    }
+                    })
+
+                </script>
