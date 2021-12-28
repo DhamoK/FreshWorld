@@ -1,0 +1,178 @@
+CREATE TABLE Fruits
+( NAME VARCHAR(40),
+QTY Integer,
+PRICE Integer
+) ;
+Insert into Fruits (name,qty,price) values ('Apple',1,150);
+Insert into Fruits (name,qty,price) values ('Orange',1,45);
+Insert into Fruits (name,qty,price) values ('Mango',1,40);
+Insert into Fruits (name,qty,price) values ('Papaya',1,50);
+Insert into Fruits (name,qty,price) values ('Watermelon',1,50);
+Insert into Fruits (name,qty,price) values ('Kiwi',1,50);
+Insert into Fruits (name,qty,price) values ('Strawberry',1,130);
+Insert into Fruits (name,qty,price) values ('Banana',1,40);
+Insert into Fruits (name,qty,price) values ('Dragon Fruit',1,200);
+
+
+CREATE TABLE Vegetables
+( NAME VARCHAR(40),
+QTY Integer,
+PRICE Integer
+) ;
+Insert into Vegetables (name,qty,price) values ('Tomato',1,80);
+Insert into Vegetables (name,qty,price) values ('Onion',1,45);
+Insert into Vegetables (name,qty,price) values ('Garlic',1,120);
+Insert into Vegetables (name,qty,price) values ('Potato',1,30);
+Insert into Vegetables (name,qty,price) values ('Cabbage',1,25);
+Insert into Vegetables (name,qty,price) values ('Radish',1,35);
+Insert into Vegetables (name,qty,price) values ('Carrot',1,40);
+Insert into Vegetables (name,qty,price) values ('Organic Okra',1,160);
+Insert into Vegetables (name,qty,price) values ('Cucumber',1,80);
+Insert into Vegetables (name,qty,price) values ('Capcicum',1,90);
+Insert into Vegetables (name,qty,price) values ('Beetroot',1,50);
+Insert into Vegetables (name,qty,price) values ('Mushroom',1,120);
+
+
+//food grains and spices
+CREATE TABLE fgs
+( NAME VARCHAR(40),
+QTY Integer,
+PRICE Integer
+) ;
+Insert into fgs (name,qty,price) values ('Rice',1,110);
+Insert into fgs (name,qty,price) values ('Sorghum',1,160);
+Insert into fgs (name,qty,price) values ('Wheat',1,70);
+Insert into fgs (name,qty,price) values ('Oats',1,166);
+Insert into fgs (name,qty,price) values ('Barley',1,120);
+Insert into fgs (name,qty,price) values ('Brown Rice',1,95);
+Insert into fgs (name,qty,price) values ('Kernel Corn',1,190);
+Insert into fgs (name,qty,price) values ('Mustard Seed',1,270);
+Insert into fgs (name,qty,price) values ('Clove',1,200);
+Insert into fgs (name,qty,price) values ('Cinamon',1,180);
+Insert into fgs (name,qty,price) values ('Cumin Seed',1,100);
+Insert into fgs (name,qty,price) values ('Cardamom',1,270);
+Insert into fgs (name,qty,price) values ('Anise',1,150);
+Insert into fgs (name,qty,price) values ('Black Pepper',1,120);
+Insert into fgs (name,qty,price) values ('Bay Leaf',1,50);
+Insert into fgs (name,qty,price) values ('Fennel Seed',1,70);
+
+
+//beverages
+CREATE TABLE beverage
+( NAME VARCHAR(40),
+QTY Integer,
+PRICE Integer
+) ;
+Insert into beverage (name,qty,price) values ('Tea-Natural Care',1,500);
+Insert into beverage (name,qty,price) values ('Instant Coffee',1,250);
+Insert into beverage (name,qty,price) values ('Lipton-Green Tea',1,510);
+Insert into beverage (name,qty,price) values ('Bournvita',1,360);
+Insert into beverage (name,qty,price) values ('Boost',1,370);
+Insert into beverage (name,qty,price) values ('Complan',1,340);
+Insert into beverage (name,qty,price) values ('Coke',1,40);
+Insert into beverage (name,qty,price) values ('Sprite',1,60);
+Insert into beverage (name,qty,price) values ('Bisleri',1,15);
+Insert into beverage (name,qty,price) values ('Horlics',1,350);
+Insert into beverage (name,qty,price) values ('Pepsi',1,60);
+Insert into beverage (name,qty,price) values ('Levista-Instant coffee',1,700);
+Insert into beverage (name,qty,price) values ('Fizz',1,30);
+Insert into beverage (name,qty,price) values ('Nescafe-Instant coffee',1,650);
+
+
+
+//dairy
+CREATE TABLE dairy
+( NAME VARCHAR(40),
+QTY Integer,
+PRICE Integer
+) ;
+Insert into dairy (name,qty,price) values ('Yogurt-Natural',1,45);
+Insert into dairy (name,qty,price) values ('Peanut Butter',1,250);
+Insert into dairy (name,qty,price) values ('Curd-Natural',1,15);
+Insert into dairy (name,qty,price) values ('Yogurt Smoothie',1,66);
+Insert into dairy (name,qty,price) values ('Chocolate Milkshake',1,35);
+Insert into dairy (name,qty,price) values ('Almond Ice Cream',1,350);
+Insert into dairy (name,qty,price) values ('Ice Cream',1,300);
+Insert into dairy (name,qty,price) values ('Panner',1,80);
+Insert into dairy (name,qty,price) values ('Protein Milkshake',1,80);
+Insert into dairy (name,qty,price) values ('Bocconicini',1,250);
+Insert into dairy (name,qty,price) values ('Soy Milk Powder',1,90);
+Insert into dairy (name,qty,price) values ('Cheese Cream',1,80);
+
+
+
+//cleaning
+CREATE TABLE cleaning
+( NAME VARCHAR(40),
+QTY Integer,
+PRICE Integer
+) ;
+Insert into cleaning (name,qty,price) values ('Scrubber-Sponge',1,25);
+Insert into cleaning (name,qty,price) values ('Scrubber-stainless Steel',1,40);
+Insert into cleaning (name,qty,price) values ('Tissue Paper',1,100);
+Insert into cleaning (name,qty,price) values ('Wet Wipes',1,80);
+Insert into cleaning (name,qty,price) values ('Wiper',1,150);
+Insert into cleaning (name,qty,price) values ('Bottle Cleaner',1,99);
+Insert into cleaning (name,qty,price) values ('Dish Washer',1,110);
+Insert into cleaning (name,qty,price) values ('Washing Powder',1,410);
+Insert into cleaning (name,qty,price) values ('Liquid Detergent',1,105);
+Insert into cleaning (name,qty,price) values ('Comfort',1,250);
+Insert into cleaning (name,qty,price) values ('Dustbin',1,120);
+Insert into cleaning (name,qty,price) values ('Dust Pan',1,90);
+Insert into cleaning (name,qty,price) values ('Broom Stick',1,200);
+Insert into cleaning (name,qty,price) values ('Cloth Mop',1,120);
+Insert into cleaning (name,qty,price) values ('Dust Mop',1,320);
+Insert into cleaning (name,qty,price) values ('Garbage Bags',1,170);
+
+
+
+CREATE TABLE dryfruits
+( NAME VARCHAR(40),
+QTY Integer,
+PRICE Integer
+) ;
+Insert into dryfruits (name,qty,price) values ('Dates',1,185);
+Insert into dryfruits (name,qty,price) values ('Black Dates',1,300);
+Insert into dryfruits (name,qty,price) values ('Cashew Nuts',1,250);
+Insert into dryfruits (name,qty,price) values ('Almonds',1,350);
+Insert into dryfruits (name,qty,price) values ('Pista',1,280);
+Insert into dryfruits (name,qty,price) values ('Black Raisin',1,150);
+Insert into dryfruits (name,qty,price) values ('Apricots',1,215);
+Insert into dryfruits (name,qty,price) values ('Prunes',1,325);
+Insert into dryfruits (name,qty,price) values ('Walnut',1,200);
+Insert into dryfruits (name,qty,price) values ('Hazelnut',1,255);
+Insert into dryfruits (name,qty,price) values ('Figs',1,300);
+Insert into dryfruits (name,qty,price) values ('Chia Seeds',1,185);
+Insert into dryfruits (name,qty,price) values ('Cranberry',1,225);
+Insert into dryfruits (name,qty,price) values ('Flax Seeds',1,130);
+Insert into dryfruits (name,qty,price) values ('Peanuts',1,120);
+Insert into dryfruits (name,qty,price) values ('Pumpkin Seeds',1,250);
+
+
+CREATE TABLE snack
+( NAME VARCHAR(40),
+QTY Integer,
+PRICE Integer
+) ;
+Insert into snack (name,qty,price) values ('Dairy Milk',1,70);
+Insert into snack (name,qty,price) values ('Ferrero Rocher',1,820);
+Insert into snack (name,qty,price) values ('Choco pie',1,20);
+Insert into snack (name,qty,price) values ('Hersheys Kisses',1,70);
+Insert into snack (name,qty,price) values ('Dark Fantasy',1,30);
+Insert into snack (name,qty,price) values ('Plum Cake',1,80);
+Insert into snack (name,qty,price) values ('Orio',1,30);
+Insert into snack (name,qty,price) values ('Marie Gold',1,15);
+Insert into snack (name,qty,price) values ('Moms Magic',1,10);
+Insert into snack (name,qty,price) values ('50-50',1,20);
+Insert into snack (name,qty,price) values ('Rusk',1,30);
+Insert into snack (name,qty,price) values ('Milk Bikis',1,20);
+Insert into snack (name,qty,price) values ('Little Hearts',1,20);
+Insert into snack (name,qty,price) values ('Jam',1,120);
+Insert into snack (name,qty,price) values ('Tomato ketchup',1,105);
+Insert into snack (name,qty,price) values ('Aloo Bujia',1,40);
+Insert into snack (name,qty,price) values ('Bujia Sev',1,50);
+Insert into snack (name,qty,price) values ('Moong Dal',1,45);
+Insert into snack (name,qty,price) values ('Lays',1,20);
+Insert into snack (name,qty,price) values ('Chocos',1,120);
+Insert into snack (name,qty,price) values ('Corn Flakes',1,150);
+Insert into snack (name,qty,price) values ('Wafers',1,50);
