@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+    background-color: #F5FFFA;
+}
+.main-logo .logos{
+    width: 100%;
+    height: 100px;
+    down:0%;
+}
+
+.login-section{
+    display:flex;
+    justify-content: center;
+    margin:10px;
+    
+}
+
+.login-section .admin1{
+    margin:50px;
+    width:200px;
+    margin-bottom: 0%;
+    
+}
+
+.login-section .user1{
+    margin: 50px;
+    width: 200px;
+    margin-bottom: 0%;
+}
+
+.logotext{
+    display:flex;
+    justify-content: space-evenly;
+    position: relative;
+    text-align:justify;
+    margin:0%;
+    padding:0%
+
+    
+}
+.logotext .admintext{
+    color: coral;
+    position: sticky;
+   
+    
+}
+
+.logotext .usertext{
+    color:coral;
+    position:sticky;
+    margin:1%;
+    right:-1%;
+
+}
+
+.footer-vehicle{
+     
+    display:flex;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background: greenyellow;
+    position: relative;
+    animation: mymove 10s infinite;
+
+}
+
+@keyframes mymove {
+    from {left: 85%;}
+    to {left:0%;}
+  }
+
+
+
+.admin1:hover{
+      transform: scale(1.2);
+
+  }
+
+.user1:hover{
+    transform: scale(1.1);
+}
+
